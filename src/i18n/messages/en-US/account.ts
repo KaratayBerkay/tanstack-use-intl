@@ -1,0 +1,27 @@
+const account = {
+    profile: {
+        title: "Profile",
+        name: "Name",
+        email: "Email",
+        avatar: "Avatar",
+    },
+    settings: {
+        title: "Account Settings",
+        language: "Language",
+        theme: "Theme",
+        notifications: "Notifications",
+        dangerZone: {
+            title: "Danger Zone",
+            deleteAccount: "Delete Account",
+            deleteWarning: "This action cannot be undone.",
+        },
+    },
+    auth: {
+        login: "Log In",
+        logout: "Log Out",
+        signup: "Sign Up",
+        forgotPassword: "Forgot password?",
+    },
+} as const;
+
+export default account;
