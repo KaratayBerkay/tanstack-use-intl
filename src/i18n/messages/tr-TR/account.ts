@@ -10,6 +10,11 @@ const account = {
         language: "Dil",
         theme: "Tema",
         notifications: "Bildirimler",
+        dropdownOptions: [
+            { label: "Herkese Açık Profil", value: "public" },
+            { label: "Gizli Hesap", value: "private" },
+            { label: "Sadece Arkadaşlar", value: "friends" },
+        ],
         dangerZone: {
             title: "Tehlikeli Bölge",
             deleteAccount: "Hesabı Sil",

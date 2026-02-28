@@ -10,6 +10,11 @@ const account = {
         language: "Language",
         theme: "Theme",
         notifications: "Notifications",
+        dropdownOptions: [
+            { label: "Public Profile", value: "public" },
+            { label: "Private Account", value: "private" },
+            { label: "Friends Only", value: "friends" },
+        ],
         dangerZone: {
             title: "Danger Zone",
             deleteAccount: "Delete Account",

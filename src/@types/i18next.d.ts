@@ -11,6 +11,6 @@ declare module "i18next" {
 
         // Full namespace map derived from the English resource files.
         // Every key in every namespace is checked by TypeScript.
-        resources: (typeof resources)["en"];
+        resources: (typeof resources)["en-US"];
     }
 }
